@@ -186,8 +186,4 @@ print("\nFeature Importances (Restricted Tree):")
 dt_imp = pd.DataFrame({'Feature': X_pima.columns, 'Importance': dt_restricted.feature_importances_})
 print(dt_imp.sort_values(by='Importance', ascending=False))
 pip install numpy pandas scikit-learn xgboost
-git init
-git add .
-git commit -m "Add ML models implementation"
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-git push -u origin main
+
